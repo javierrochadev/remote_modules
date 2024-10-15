@@ -1,4 +1,4 @@
 output "vnet_name" {
   description = "El nombre de la red virtual creada"
-  value       = var.vnet_name
+  value       = azurerm_virtual_network.v_net.name
 }
